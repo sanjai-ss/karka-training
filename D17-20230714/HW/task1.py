@@ -22,10 +22,9 @@ def detail():
                 name=i["name"]
                 age=i["age"]
                 place=i["place"]
-
-        if age>20:
-                print(f"i'm {name} from {place}")
                 print(f"i am {name}, i'm {age} years old. and i am from {place}.")
+                if age>20:
+                        print(f"i'm {name} from {place}")
 
         
 detail()

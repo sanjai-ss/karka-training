@@ -1,2 +1,6 @@
 file=open("/home/sanjai/Documents/karka.txt","r")
-print(file.write())
+# file.write("i'm sanjai and i'm from tamilnadu")
+# file.close()
+# print(file.read())
+for line in file:
+    print(line.split())
