@@ -33,6 +33,6 @@ a={}
 for items in items_list:
     if items["category"]=="fruits":
         frts=items["name"]
-        a,[0{"fruits="}].append(frts)
+        a[0({"fruits="}].append(frts)
 print(a)
         

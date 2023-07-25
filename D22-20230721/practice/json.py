@@ -29,18 +29,4 @@ for i in range(len(consumer_data["eb_reading"])-1):
     "units_consumed": unit_consumption,
     "billAmount": amount}   
     List.append(dictionary_view)
-print(List)
-print("total_amount=",amount)
-
-file=open("/home/sanjai/Documents/sanjai.txt","w")
-# file.write("i'm sanjai and i'm from tamilnadu")
-for item in List:
-    for i in item:
-        file.write(f"{i}:{item[i]}\n")
-    file.write("\n")
-        # print(item[i])
-        # pass
-# print(file.read())
-file.close()
-
-
+    

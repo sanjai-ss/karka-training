@@ -3,4 +3,4 @@ file=open("/home/sanjai/Documents/karka.txt","r")
 # file.close()
 # print(file.read())
 for line in file:
-    print(line.split())
+    print(line.split()) 
