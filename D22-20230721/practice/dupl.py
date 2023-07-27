@@ -4,5 +4,3 @@ for i in dupl_value:
     if i not in original_value:
         original_value.append(i)
 print("orginal_list is ",original_value)
-    
-

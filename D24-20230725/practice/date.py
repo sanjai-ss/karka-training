@@ -14,7 +14,7 @@ curr_datetime=datetime(2020,5,6,11,12,13)
 # curr_datetime=curr_datetime.month
 # curr_datetime=datetime.today()
 # curr_datetime=datetime.now()
-curr_datetime=curr_datetime.strftime("%D")
+curr_datetime=curr_datetime.strftime("%B")
 print(curr_datetime)
 
 # from datetime import datetime

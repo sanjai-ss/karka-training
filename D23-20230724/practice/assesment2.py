@@ -18,8 +18,6 @@ for item in monthly_gold_rate:
         value=item["gold_rate"]
         month2=item["month"]
 print(f"{value} is the greatest price and its month is {month2}\n{gold_rate} is the lowest price and its month is {month1}")
-# print(f"{gold_rate} is the lowest price and its month is {month1}")
-
 
 # gold1=(monthly_gold_rate[0]["gold_rate"])
 # gold2=(monthly_gold_rate[1]["gold_rate"])
