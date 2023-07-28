@@ -5,6 +5,7 @@ consumer_data = {"consumer_name=": name,
     "eb_reading": reading} 
 List=[]
 amount=0  
+from pprint import pprint
 for i in range(len(consumer_data["eb_reading"])-1):
     unit_consumption=consumer_data["eb_reading"][i+1]-consumer_data["eb_reading"][i]
     if unit_consumption<100:
@@ -29,4 +30,4 @@ for i in range(len(consumer_data["eb_reading"])-1):
     "units_consumed": unit_consumption,
     "billAmount": amount}   
     List.append(dictionary_view)
-    
+pprint(List)

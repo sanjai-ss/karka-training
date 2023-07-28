@@ -32,15 +32,15 @@ for i in range(len(consumer_data["eb_reading"])-1):
 print(List)
 print("total_amount=",amount)
 
-file=open("/home/sanjai/Documents/sanjai.txt","w")
+# file=open("/home/sanjai/Documents/sanjai.txt","w")
 # file.write("i'm sanjai and i'm from tamilnadu")
-for item in List:
-    for i in item:
-        file.write(f"{i}:{item[i]}\n")
-    file.write("\n")
+# for item in List:
+    # for i in item:
+        # file.write(f"{i}:{item[i]}\n")
+    # file.write("\n")
         # print(item[i])
         # pass
 # print(file.read())
-file.close()
+# file.close()
 
 

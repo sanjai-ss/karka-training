@@ -15,8 +15,8 @@
 # to find the index of a number
 List = [1,100,300,4,5,6,7]
 index=int(input("enter the element to find the index="))
-def find_index(a):
-    for i in range(0,a+1):
-        if List[i]==index:
+def find_index(a,b):
+    for i in range(0,len(a)):
+        if a[i]==b:
             print(i)
-a=find_index(index)
+a=find_index(List,index)

@@ -7,4 +7,4 @@ from datetime import timedelta
 date_str="24December2022"
 date=datetime.strptime(date_str,"%d%B%Y")
 end_date=date + timedelta (days=5)
-print(end_date)
+print(end_date) 

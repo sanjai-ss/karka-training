@@ -25,6 +25,7 @@ monthly_gold_rate=[{"month":"january",
                                     "making_cost":19}]}]
 dic=[]
 value={}
+from pprint import pprint
 for item in monthly_gold_rate:
     for i in item["jewell_list"]:
         month=item["month"]
@@ -34,4 +35,4 @@ for item in monthly_gold_rate:
         jewell=((percentage*gold)/100)+gold
         rate=(f"month : {month}, the making cost of {name}  : {jewell}")
         dic.append(rate)
-print(dic)
+pprint(dic)
